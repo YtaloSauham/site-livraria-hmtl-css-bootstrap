@@ -1,0 +1,10 @@
+:root{
+    -cor-jumbotron: gray;
+}
+
+.jumbotron{
+    background-image: url("../images/Foto\ principal.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+}
