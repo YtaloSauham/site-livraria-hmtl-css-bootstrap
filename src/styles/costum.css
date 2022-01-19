@@ -1,5 +1,5 @@
 :root{
-    -cor-jumbotron: gray;
+    -cor-jumbotron-button-dashboard-inicial: red;
 }
 
 .jumbotron{
@@ -7,4 +7,13 @@
     background-position: center;
     background-size: cover;
     padding: 10rem;
+}
+
+nav{
+    background-color: blue;
+}
+
+#Button-Jumbotron-Inicial{
+    color: var(-cor-jumbotron-button-dashboard-inicial) !important;
+
 }

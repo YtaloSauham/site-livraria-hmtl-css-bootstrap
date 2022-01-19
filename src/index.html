@@ -19,9 +19,12 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #C16200 !important">
         <div class="container">
-        <a class="navbar-brand" href="#">Livraria Neto</a>
+        <a class="navbar-brand pr-2" href="#">
+          <img src="./icons/Urso Icone.svg" style="width: 50px;padding-right: 2px;"/>
+           URSAL LIVRAIA
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,10 +52,10 @@
       <section class="text-center">
         <div class="jumbotron">
         <div class="container">
-          <h1 class="jumbotron-heading text-white">Exemplo de álbum</h1>
+          <h1 class="jumbotron-heading text-white">Venha conhecer nossas ofertas</h1>
           <p class="lead text-white">Algo curto e direto, sobre a coleção abaixo (conteúdo, criador e etc). Faça com que seja curto e legal, mas não tão curto ao ponto de as pessoas pularem ele.</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Vamos nessa!!</a>
+            <button type="button" href="#" class="btn btn-danger my-2 btn-lg" id="Button-Jumbotron-Inicial">Vamos nessa!!</button>
           </p>
         </div>
       </div>
@@ -68,40 +71,16 @@
 
       <div class="container marketing">
 
-        <!-- Três colunas de texto, abaixo do carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="../src/images/Foto do TItulo 1.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Melhor Livraria de São Luís</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Título</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Título</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div> 
-
-
-        <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
-
+        <h2 class="p-4 text-center"> Sobre a Livraria</h2>
         <hr class="featurette-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Primeiro título de featurezinhas. <span class="text-muted">Supreendente, não?!</span></h2>
+            <h2 class="featurette-heading">Primeiro título de featurezinhas.</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="../src/images/Foto do TItulo 1.jpg" alt="Foto da do corredor da livraria.">
           </div>
         </div>
 
@@ -109,11 +88,11 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Aêêê, moleque! <span class="text-muted">Tá legal ou não tá?</span></h2>
+            <h2 class="featurette-heading">Muito top!!</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto"src="../src/images/Feature 2.jpg" alt="Foto do corredor da livraria Neto. ">
           </div>
         </div>
 
@@ -125,21 +104,42 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="../src/images/Foto do TItulo 1.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
         <hr class="featurette-divider">
-
+        <section class="container text-center">
+        <h2 class="p-4"> Criadores</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../src/images/Foto do TItulo 1.jpg" alt="Foto criador 1" width="140" height="140">
+            <h2 class="p-1">Ytalo</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary d-inline-flex" href="#" role="button">View details <img src="../src/icons/Icone Git.svg" class="pl-2 " /></a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle"  src="../src/images/Foto do TItulo 1.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="p-1">Elias</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary d-inline-flex" href="#" role="button">View details <img src="../src/icons/Icone Git.svg" class="pl-2" /></a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle"  src="../src/images/Foto do TItulo 1.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="p-1">Artur</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary d-inline-flex" href="#" role="button">View details <img src="../src/icons/Icone Git.svg" class="pl-2" /></a></p>
+          </div><!-- /.col-lg-4 -->
+        </div> 
         <!-- /FIM DAS FEATUREZINHAS *-* -->
 
-      </div><!-- /.container -->
-
+        </section><!-- /.container -->
+    </div>
 
       <!-- FOOTER -->
-      <footer class="container">
+      <footer class="container pt-5">
         <p class="float-right"><a href="#">Voltar ao topo</a></p>
-        <p>&copy; Companhia S.A., 2017-2018 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+        <p>&copy; Companhia URSAL, 2021-2022 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
       </footer>
     </main>
 
