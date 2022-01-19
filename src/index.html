@@ -19,9 +19,9 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #C16200 !important">
+      <nav id="navbar-dashboard-inicial" class=" fixed-top navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #C16200 !important">
         <div class="container">
-        <a class="navbar-brand pr-2" href="#">
+        <a class="navbar-brand pr-2" href="#Home">
           <img src="./icons/Urso Icone.svg" style="width: 50px;padding-right: 2px;"/>
            URSAL LIVRAIA
         </a>
@@ -30,14 +30,14 @@
         </button>
         <div class="collapse navbar-collapse" id="textoNavbar">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Criadores</a>
+              <a class="nav-link" href="#Criadores">Criadores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre a Livraria</a>
+              <a class="nav-link" href="#Sobre">Sobre a Livraria</a>
             </li>
           </ul>
         </div>
@@ -48,8 +48,9 @@
 
 
        <!-- Jumbotron INICIAL -->
-    <main role="main">
-      <section class="text-center">
+    <main role="main" data-spy="scroll" data-target=".navbar" data-offset="0">
+     
+      <section class="text-center" id="Home">
         <div class="jumbotron">
         <div class="container">
           <h1 class="jumbotron-heading text-white">Venha conhecer nossas ofertas</h1>
@@ -62,18 +63,17 @@
       </section>
         
 
-      </section>
+     
      
 
       <!-- Mensagens de marketing e outras featurezinhas
       ================================================== -->
       <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
 
-      <div class="container marketing">
-
-        <h2 class="p-4 text-center"> Sobre a Livraria</h2>
+      <div class="container marketing" >
+        
+        <h2 class="p-4 text-center" id="Sobre"> Sobre a Livraria</h2>
         <hr class="featurette-divider">
-
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Primeiro título de featurezinhas.</h2>
@@ -110,7 +110,7 @@
 
         <hr class="featurette-divider">
         <section class="container text-center">
-        <h2 class="p-4"> Criadores</h2>
+        <h2 class="p-4" id="Criadores"> Criadores</h2>
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="../src/images/Foto do TItulo 1.jpg" alt="Foto criador 1" width="140" height="140">
@@ -134,7 +134,9 @@
         <!-- /FIM DAS FEATUREZINHAS *-* -->
 
         </section><!-- /.container -->
-    </div>
+      </div>
+  
+
 
       <!-- FOOTER -->
       <footer class="container pt-5">
