@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 :root{
     -cor-jumbotron-button-dashboard-inicial: red;
+
 }
 
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+.preco-card{
+    font-weight: bold;
+}
+
+.card img{
+    height: 250px;
+}
 .icons-navbar{
     width: 2em;
     display: flex;
@@ -9,6 +27,13 @@
 
 .jumbotron{
     background-image: url("../images/Foto\ principal.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+}
+
+ #jumbotron-dashboard{
+    background-image: url("../images/Foto\ campanha.jpg");
     background-position: center;
     background-size: cover;
     padding: 10rem;
@@ -35,11 +60,8 @@ nav{
 }
 
 
-.card img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
+
+
 
 

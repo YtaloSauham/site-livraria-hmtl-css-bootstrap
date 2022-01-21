@@ -28,16 +28,18 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="./index.html">Sobre</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           Livros
+                          Livros
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Mais Vendidos</a></li>
                           <li><a class="dropdown-item" href="#">Cadastrar</a></li>
                           <li><a class="dropdown-item" href="#">Alugar</a></li>
+                          <li><a class="dropdown-item" href="#">Comprar</a></li>
+                          
                          
                         </ul>
                       </li>
@@ -49,14 +51,13 @@
       </header>
 
       <main role="main">
-     
-        <section class="text-center" id="Home">
-            <div class="jumbotron">
+        <section class="text-center">
+            <div class="jumbotron" id="jumbotron-dashboard">
             <div class="container">
-              <h1 class="jumbotron-heading text-white">Venha conhecer nossas ofertas</h1>
-              <p class="lead text-white">Algo curto e direto, sobre a coleção abaixo (conteúdo, criador e etc). Faça com que seja curto e legal, mas não tão curto ao ponto de as pessoas pularem ele.</p>
+              <h1 class="jumbotron-heading text-white">Cadastre seu livro e ajude uma criança</h1>
+              <p class="lead text-white">Ao cadastrar um livro você ganha desconto na compra dos mais vendidos da semana.</p>
               <p>
-                <button type="button"  class="btn btn-danger my-2 btn-lg Button-Jumbotron" > <a href="dashboard.html">Vamos nessa!! </a></button>
+                <button type="button"  class="btn btn-danger my-2 btn-lg Button-Jumbotron" > <a href="dashboard.html" class="text-white">Cadastre seu livro!! </a></button>
               </p>
             </div>
           </div>
@@ -64,7 +65,8 @@
           
           <section class="container py-5">
               <h2>Navegue pelo seu universo favorito</h2>
-            <div class="row">
+
+            <div class="row g-5">
                 <div class="col-sm py-2">
                     <div class="card" style="background-image: url('./images/Harry\ Potter\ foto\ pequena.jpg');background-position: center;background-size: cover;">
                       <div class="card-body text-center">
@@ -73,8 +75,8 @@
                         <a href="#" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
+                    
                   </div>
-
                   <div class="col-sm py-2">
                     <div class="card" style="background-image: url('./images/Harry\ Potter\ foto\ pequena.jpg');background-position: center;background-size: cover;">
                       <div class="card-body text-center">
@@ -104,37 +106,153 @@
                       </div>
                     </div>
                   </div>
-
-                  <div class="col-sm py-2">
-                    <div class="card" style="background-image: url('./images/Harry\ Potter\ foto\ pequena.jpg');background-position: center;background-size: cover;">
-                      <div class="card-body text-center">
-                        <h5 class="card-title text-white">Harry Potter</h5>
-                        <p class="card-text text-white">Venha conhecer mais do mundo de Harry Potter.</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                      </div>
-                    </div>
-                  </div>
-
-                <div class="col-sm py-2">
-                    <div class="card" style="background-image: url('./images/Harry\ Potter\ foto\ pequena.jpg');background-position: center;background-size: cover;">
-                      <div class="card-body text-center">
-                        <h5 class="card-title text-white">Harry Potter</h5>
-                        <p class="card-text text-white">Venha conhecer mais do mundo de Harry Potter.</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                      </div>
-                    </div>
-                  </div>
-  
-
-                </div>
-
                 
-               
-            
-                     
-           
+                </div>
+                </section>
+                <section class="container pt-2">
+                <div class="row  g-4">
+                    <h2 class="">Mais Alugados</h2>
+                    <div class="col-sm py-2">
+                    <div class="card text-center" style="width: 15rem;">
+                        <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm py-2">
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-sm py-2">
+                            <div class="card text-center" style="width: 15rem;">
+                                <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-sm py-2">
+                                <div class="card text-center" style="width: 15rem;">
+                                    <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-sm py-2">
+                                    <div class="card text-center" style="width: 15rem;">
+                                        <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                </div>
               
           </section>
+
+          <section class="container pt-5">
+              <h2>Mais Vendidos</h2>
+              <div class="row  g-4">
+                <div class="col-sm col-md-5 col-lg-3 py-2">
+                    <div class="card text-center" style="width: 15rem;">
+                        <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Harry Potter - Camara secreta</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h6><del>R$39,99</del></h6>
+                          <h5 class="preco-card">R$ 25,99</h5>
+                          <a href="#" class="btn btn-dark">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm  col-md-5 col-lg-3 py-2">
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Harry Potter - Camara secreta</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <h6><del>R$39,99</del></h6>
+                              <h5 class="preco-card">R$ 25,99</h5>
+                              <a href="#" class="btn btn-dark">Comprar</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm  col-md-5 col-lg-3 py-2">
+                            <div class="card text-center" style="width: 15rem;">
+                                <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Harry Potter - Camara secreta</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <h6><del>R$39,99</del></h6>
+                                  <h5 class="preco-card">R$ 25,99</h5>
+                                  <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                              </div>
+                            </div>
+    
+
+                        <div class="col-sm  col-md-5 col-lg-3 py-2">
+                            <div class="card text-center" style="width: 15rem;">
+                                <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Harry Potter - Camara secreta</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <h6><del>R$39,99</del></h6>
+                                  <h5 class="preco-card">R$ 25,99</h5>
+                                  <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                              </div>
+                            </div>
+    
+
+
+                        <div class="col-sm col-md-5 col-lg-3  py-2">
+                            <div class="card text-center" style="width: 15rem;">
+                                <img src="../src/images/Capa de livro teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Harry Potter - Camara secreta</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <h6><del>R$39,99</del></h6>
+                                  <h5 class="preco-card">R$ 25,99</h5>
+                                  <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+              </div>
+              
+
+          </section>
+
+          
+      </main>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
